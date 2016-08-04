@@ -13,6 +13,7 @@
 		74B413AD1D533DCB00691DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B413AB1D533DCB00691DD0 /* Main.storyboard */; };
 		74B413AF1D533DCB00691DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B413AE1D533DCB00691DD0 /* Assets.xcassets */; };
 		74B413B21D533DCB00691DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B413B01D533DCB00691DD0 /* LaunchScreen.storyboard */; };
+		74B413BC1D536BDA00691DD0 /* ZLDPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B413BB1D536BDA00691DD0 /* ZLDPageControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		74B413AE1D533DCB00691DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74B413B11D533DCB00691DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74B413B31D533DCB00691DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B413BA1D536BDA00691DD0 /* ZLDPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZLDPageControl.h; path = ZLDPageControl/ZLDPageControl.h; sourceTree = "<group>"; };
+		74B413BB1D536BDA00691DD0 /* ZLDPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZLDPageControl.m; path = ZLDPageControl/ZLDPageControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		74B413B91D5350AA00691DD0 /* ZLDPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				74B413BA1D536BDA00691DD0 /* ZLDPageControl.h */,
+				74B413BB1D536BDA00691DD0 /* ZLDPageControl.m */,
 			);
 			name = ZLDPageControl;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				74B413AA1D533DCB00691DD0 /* ViewController.m in Sources */,
 				74B413A71D533DCB00691DD0 /* AppDelegate.m in Sources */,
 				74B413A41D533DCB00691DD0 /* main.m in Sources */,
+				74B413BC1D536BDA00691DD0 /* ZLDPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
