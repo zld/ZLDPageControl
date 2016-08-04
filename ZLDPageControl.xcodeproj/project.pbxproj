@@ -58,6 +58,7 @@
 		74B413A11D533DCB00691DD0 /* ZLDPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				74B413B91D5350AA00691DD0 /* ZLDPageControl */,
 				74B413A51D533DCB00691DD0 /* AppDelegate.h */,
 				74B413A61D533DCB00691DD0 /* AppDelegate.m */,
 				74B413A81D533DCB00691DD0 /* ViewController.h */,
@@ -77,6 +78,13 @@
 				74B413A31D533DCB00691DD0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74B413B91D5350AA00691DD0 /* ZLDPageControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ZLDPageControl;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
